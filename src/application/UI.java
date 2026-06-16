@@ -57,7 +57,7 @@ public class UI {
         System.out.print(" ");
     }
 
-    // ler a posição digitada pelo utilizador
+    // Método para ler a posição digitada
     public static ChessPosition readChessPosition(Scanner sc) {
         try {
             String s = sc.next();
@@ -86,6 +86,7 @@ public class UI {
         System.out.println("  a b c d e f g h");
     }
 
+    // Método para pintar o fundo se for um movimento possível
     private static void printPiece(ChessPiece piece, boolean background) {
         if (background) {
             System.out.print(ANSI_BLUE_BACKGROUND); // Altere para a cor de fundo que preferir
@@ -132,6 +133,7 @@ public class UI {
         }
     }
 
+    // Método que desenha o painel de peças capturadas
     private static void printCapturedPieces(List<ChessPiece> captured) {
         List<ChessPiece> white = captured.stream().filter(x -> x.getColor() == Color.WHITE).collect(Collectors.toList());
         List<ChessPiece> black = captured.stream().filter(x -> x.getColor() == Color.BLACK).collect(Collectors.toList());

@@ -36,6 +36,7 @@ public class Board {
         return pieces[position.getRow()][position.getColumn()];
     }
 
+    // Método para colocar uma peça no tabuleiro (com validação)
     public void placePiece(Piece piece, Position position) {
         if (thereIsAPiece(position)) {
             throw new BoardException("Já existe uma peça na posição " + position);
@@ -44,6 +45,7 @@ public class Board {
         piece.position = position;
     }
 
+    // Método para remover uma peça do tabuleiro
     public Piece removePiece(Position position) {
         if (!positionExists(position)) {
             throw new BoardException("Posição não existe no tabuleiro.");
