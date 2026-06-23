@@ -36,6 +36,8 @@ O sistema foi modularizado rigidamente:
 
 Certifique-se de ter o Java instalado em sua máquina.
 
+Repositorio:
+https://github.com/charlesgomes-del/sistema-de-xadrez-java.git
 
 
 1\. Acesse a pasta do projeto via terminal.
