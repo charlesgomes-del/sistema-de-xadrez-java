@@ -2,7 +2,7 @@
 
 
 
-Projeto desenvolvido para a disciplina de Programação Orientada a Objetos, aplicando conceitos avançados de engenharia de software e arquitetura em camadas (Lógica de Negócio vs. Estrutura de Dados).
+Projeto desenvolvido para a disciplina de Programação Orientada a Objetos, aplicando conceitos avançados de engenharia de software e arquitetura em camadas.
 
 
 
